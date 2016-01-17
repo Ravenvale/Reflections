@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, the repository is created, but it has no commits yet, and therefore no commit history.
+Any files in the repository are listed as untracked files. You need to make the first commit to continue to use git 
+for keeping track of the changes you make. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where you can arrange the files you're thinking of making a commit for, letting you double check 
+them before actually making the commit. 
+
+
+
+

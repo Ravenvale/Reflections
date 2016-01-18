@@ -9,6 +9,28 @@ How is the staging area different from the working directory and the repository?
 The staging area is where you can arrange the files you're thinking of making a commit for, letting you double check 
 them before actually making the commit. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area by using git diff without arguments to see what you changed from the working directory, and
+git diff --staged to see the difference between your last commit and what's in the staging area, in order to know
+that the changes you are thinking of commiting are a logical change to group together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful if you want to try some different things with the same project, and want different versions 
+that are current. One could be the main version, one could be an easy-mode version, and this is different than having 
+just older and newer commits. With branches, you can feel freer to try going down a new road as extensively as you want, 
+and still have the main branch to checkout at any time.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams provide a visual representation of the branch structure, with lines connecting each commit in order, and 
+arrows showing which direction the parents lie in. The branches are easy to see, and it's easy to tell when a commit 
+is detatched and maybe should be turned into a branch so it's not unreachable. Having a picture makes it easy to 
+remember the rules git follows.
+
+
+
 
 
 

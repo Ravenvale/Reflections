@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository is useful in case anything happened to your computer, or you don't 
+have it with you when you want to access and edit the files. Since they are saved remotely, you 
+can log into github and access them from any computer, and later copy them on your personal 
+computer from the remote repository.
+
